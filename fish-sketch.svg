@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 500" fill="none" aria-hidden="true">
+  <!-- octopus — mantle on top, arms hang below -->
+  <g stroke="#f5f5f0" stroke-linecap="round" stroke-linejoin="round">
+    <path
+      d="M428 198 C408 178 418 152 452 142 C492 132 532 152 542 188
+         C550 222 528 248 492 258 C458 266 428 252 412 222 C404 208 414 198 428 198Z"
+      stroke-width="2.2"
+      opacity="0.96"
+    />
+    <path d="M462 148 C488 142 512 152 524 172" stroke-width="1" opacity="0.3"/>
+
+    <!-- arms from lower mantle — droop & spread, not upward petals -->
+    <path d="M418 248 C378 268 342 312 328 362 C318 398 332 412 352 388" stroke-width="2" opacity="0.9"/>
+    <path d="M432 252 C408 288 388 348 398 402 C404 432 422 438 442 412" stroke-width="2.1" opacity="0.92"/>
+    <path d="M448 258 C438 312 448 372 468 418 C476 442 494 432 498 398" stroke-width="2.15" opacity="0.94"/>
+    <path d="M462 262 C492 298 522 348 538 398 C544 428 532 438 512 412" stroke-width="2.05" opacity="0.91"/>
+    <path d="M478 258 C518 278 558 322 572 372 C578 408 562 418 538 388" stroke-width="2" opacity="0.89"/>
+    <path d="M492 252 C532 268 568 308 582 352 C588 382 574 392 552 368" stroke-width="1.9" opacity="0.87"/>
+    <path d="M508 246 C548 258 582 292 598 338 C604 368 590 378 565 358" stroke-width="1.85" opacity="0.84"/>
+    <path d="M522 242 C562 232 598 252 612 298 C618 328 602 338 578 318" stroke-width="1.75" opacity="0.8"/>
+
+    <ellipse cx="338" cy="328" rx="4.5" ry="3" stroke-width="1" opacity="0.46"/>
+    <ellipse cx="368" cy="372" rx="5" ry="3" stroke-width="1" opacity="0.44"/>
+    <ellipse cx="408" cy="408" rx="4" ry="2.5" stroke-width="1" opacity="0.42"/>
+    <ellipse cx="452" cy="368" rx="5" ry="3" stroke-width="1" opacity="0.48"/>
+    <ellipse cx="488" cy="408" rx="4.5" ry="3" stroke-width="1" opacity="0.45"/>
+    <ellipse cx="528" cy="358" rx="5" ry="3" stroke-width="1" opacity="0.46"/>
+    <ellipse cx="562" cy="328" rx="4" ry="2.5" stroke-width="1" opacity="0.43"/>
+    <ellipse cx="592" cy="348" rx="4.5" ry="3" stroke-width="1" opacity="0.4"/>
+  </g>
+  <g stroke="#f5a562" stroke-linecap="round" opacity="0.4">
+    <path d="M438 258 C448 268 462 262 472 248" stroke-width="1"/>
+    <path d="M488 252 C502 262 518 254 528 238" stroke-width="1"/>
+  </g>
+
+  <g stroke="#c8c8c0" stroke-linecap="round" opacity="0.26">
+    <path d="M88 108 C158 78 252 118 296 168" stroke-width="0.9"/>
+    <path d="M812 398 C752 428 668 392 624 348" stroke-width="0.9"/>
+  </g>
+</svg>

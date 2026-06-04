@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 460" fill="none" aria-hidden="true">
+  <g stroke="#f5f5f0" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Table top (3/4) -->
+    <ellipse cx="200" cy="268" rx="118" ry="38" stroke-width="2.5" opacity="0.96" transform="rotate(-6 200 268)"/>
+    <path d="M95 278 C140 258 260 258 305 282" stroke-width="1.2" opacity="0.4"/>
+    <ellipse cx="200" cy="262" rx="95" ry="28" stroke-width="1.1" opacity="0.25" transform="rotate(-6 200 262)"/>
+
+    <!-- Table leg -->
+    <path d="M200 288 L208 400" stroke-width="2.4" opacity="0.95"/>
+    <ellipse cx="210" cy="408" rx="52" ry="14" stroke-width="2.2" opacity="0.9" transform="rotate(-4 210 408)"/>
+
+    <!-- Candle holder -->
+    <path d="M188 268 L188 220" stroke-width="2" opacity="0.92"/>
+    <path d="M212 268 L212 220" stroke-width="2" opacity="0.92"/>
+    <path d="M188 220 L212 220" stroke-width="2.2" opacity="0.9"/>
+    <ellipse cx="200" cy="218" rx="14" ry="5" stroke-width="1.6" opacity="0.75"/>
+
+    <!-- Candle -->
+    <path d="M196 218 L196 165" stroke-width="2.2" opacity="0.95"/>
+    <path d="M204 218 L204 168" stroke-width="2.2" opacity="0.95"/>
+    <path d="M196 165 C198 155 202 148 200 132" stroke-width="1.8" opacity="0.9"/>
+    <path d="M204 168 C202 158 198 150 200 132" stroke-width="1.8" opacity="0.9"/>
+
+    <!-- Flame -->
+    <path d="M200 132 C188 118 192 95 200 78 C208 95 212 118 200 132 Z" stroke-width="2" opacity="0.95"/>
+    <path d="M200 110 C200 98 200 88 200 82" stroke-width="1" opacity="0.5"/>
+    <path d="M194 105 C198 100 202 100 206 105" stroke-width="0.9" opacity="0.35"/>
+
+    <!-- Soft glow lines -->
+    <path d="M175 95 C185 85 215 85 225 95" stroke-width="0.9" opacity="0.2"/>
+    <ellipse cx="200" cy="118" rx="28" ry="40" stroke-width="0.8" opacity="0.15"/>
+  </g>
+  <g stroke="#c8c8c0" stroke-linecap="round" opacity="0.28">
+    <path d="M55 320 C75 300 95 325" stroke-width="0.8"/>
+    <path d="M345 240 C325 220 305 245" stroke-width="0.8"/>
+  </g>
+</svg>

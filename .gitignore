@@ -1,0 +1,5 @@
+.DS_Store
+*.log
+
+# Reference screenshots (not used on the live site)
+Screenshot*.png

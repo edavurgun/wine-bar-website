@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="La Tarda — an intimate wine bar in El Born, Barcelona. Curated pours, small plates, and unhurried evenings." />
+  <title>La Tarda · Wine Bar</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Caprasimo&family=Caveat:wght@400;500&family=Concert+One&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;1,9..40,400&family=Fredoka:wght@400;500;600&family=Lobster&family=Pacifico&family=Shrikhand&family=Sniglet:wght@400;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header" id="top">
+    <a href="#top" class="logo">La Tarda</a>
+    <button class="nav-toggle" aria-label="Open menu" aria-expanded="false">
+      <span></span><span></span>
+    </button>
+    <nav class="site-nav" aria-label="Main">
+      <a href="#about">About</a>
+      <a href="#wines">Wines</a>
+      <a href="#kitchen">Kitchen</a>
+      <a href="#visit">Visit</a>
+      <a href="#reserve" class="nav-cta">Reserve</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" aria-label="Introduction">
+      <p class="hero-brand" aria-label="La Tarda">
+        <span class="hero-brand-split">
+          <span class="hero-brand-layer hero-brand-layer--top" aria-hidden="true">La</span>
+          <span class="hero-brand-layer hero-brand-layer--bottom" aria-hidden="true">Tarda</span>
+        </span>
+      </p>
+      <div class="hero-content">
+        <p class="eyebrow">Wine bar · El Born, Barcelona</p>
+        <h1>Stories in every<br /><em>glass</em></h1>
+        <p class="hero-lead">
+          A candlelit room for natural wines, seasonal small plates,
+          and conversations that linger past midnight.
+        </p>
+        <div class="hero-actions">
+          <a href="#reserve" class="btn btn-primary">Book a table</a>
+          <a href="#wines" class="btn btn-ghost">View the list</a>
+        </div>
+      </div>
+      <div class="hero-scroll" aria-hidden="true">
+        <span>Scroll</span>
+        <svg width="12" height="24" viewBox="0 0 12 24" fill="none"><path d="M6 0v22M1 17l5 5 5-5" stroke="currentColor" stroke-width="1"/></svg>
+      </div>
+    </section>
+
+    <section class="about" id="about">
+      <div class="about-grid">
+        <div class="about-visual">
+          <div class="about-image" role="img" aria-label="Decorative fish sketch"></div>
+        </div>
+        <div class="about-copy">
+          <p class="section-label">Our story</p>
+          <h2>An intimate room<br />for curious palates</h2>
+          <p>
+            A thirty-seat wine bar on a quiet lane in El Born, built around
+            small producers: skin-contact oranges from Slovenia, gamay from
+            Beaujolais, and the occasional magnum we’ve been saving for
+            someone special.
+          </p>
+          <p>
+            Our list rotates weekly. Ask your server — they’ve tasted everything on it.
+          </p>
+          <ul class="about-stats">
+            <li><strong>30</strong><span>seats</span></li>
+            <li><strong>40</strong><span>bottles</span></li>
+            <li><strong>6</strong><span>by the glass</span></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="wines" id="wines">
+      <img
+        class="wines-chat-sketch"
+        src="wine-chat-sketch.svg"
+        alt=""
+        width="300"
+        height="480"
+        decoding="async"
+      />
+      <div class="section-header">
+        <p class="section-label">Current pours</p>
+        <h2>On the list this week</h2>
+        <p class="section-desc">Glass · carafe · bottle. Ask about our Coravin selections.</p>
+      </div>
+      <div class="wine-grid">
+        <article class="wine-card">
+          <span class="wine-region">Beaujolais, France</span>
+          <h3>Domaine des Champs — Morgon</h3>
+          <p class="wine-notes">Cherry, granite, gamay · 2022</p>
+          <div class="wine-prices">
+            <span><em>Glass</em> €14</span>
+            <span><em>Bottle</em> €68</span>
+          </div>
+        </article>
+        <article class="wine-card featured">
+          <span class="wine-tag">Staff pick</span>
+          <span class="wine-region">Styria, Austria</span>
+          <h3>Werlitsch — Sauvignon Blanc</h3>
+          <p class="wine-notes">Skin contact, apricot, saline · 2021</p>
+          <div class="wine-prices">
+            <span><em>Glass</em> €16</span>
+            <span><em>Bottle</em> €82</span>
+          </div>
+        </article>
+        <article class="wine-card">
+          <span class="wine-region">Etna, Sicily</span>
+          <h3>Graci — Nerello Mascalese</h3>
+          <p class="wine-notes">Volcanic, rose petal, fine tannin · 2020</p>
+          <div class="wine-prices">
+            <span><em>Glass</em> €18</span>
+            <span><em>Bottle</em> €94</span>
+          </div>
+        </article>
+        <article class="wine-card">
+          <span class="wine-region">Willamette, Oregon</span>
+          <h3>Division — Pinot Noir</h3>
+          <p class="wine-notes">Cranberry, forest floor, elegant · 2019</p>
+          <div class="wine-prices">
+            <span><em>Glass</em> €15</span>
+            <span><em>Bottle</em> €72</span>
+          </div>
+        </article>
+      </div>
+      <p class="wines-footer">Full list available at the bar. No corkage on bottles purchased here.</p>
+    </section>
+
+    <section class="kitchen" id="kitchen">
+      <div class="kitchen-inner">
+        <div class="kitchen-copy">
+          <p class="section-label">From the kitchen</p>
+          <h2>Plates to pass,<br />glasses to refill</h2>
+          <p>
+            Our menu is designed for sharing — think burrata with fig honey,
+            duck rillettes, and whatever bread our baker dropped off that morning.
+          </p>
+        </div>
+        <ul class="menu-list">
+          <li>
+            <div class="menu-item">
+              <h3>Charcuterie board</h3>
+              <p>Two meats, cornichons, mustard, grilled sourdough</p>
+            </div>
+            <span class="menu-price">€24</span>
+          </li>
+          <li>
+            <div class="menu-item">
+              <h3>Roasted beet & goat cheese</h3>
+              <p>Walnuts, aged balsamic, micro herbs</p>
+            </div>
+            <span class="menu-price">€16</span>
+          </li>
+          <li>
+            <div class="menu-item">
+              <h3>Truffle arancini</h3>
+              <p>Pecorino, black truffle oil, lemon aioli</p>
+            </div>
+            <span class="menu-price">€14</span>
+          </li>
+          <li>
+            <div class="menu-item">
+              <h3>Olive oil cake</h3>
+              <p>Mascarpone, blood orange, sea salt</p>
+            </div>
+            <span class="menu-price">€12</span>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="visit" id="visit">
+      <div class="visit-grid">
+        <div class="visit-info">
+          <p class="section-label">Find us</p>
+          <h2>Visit La Tarda</h2>
+          <address>
+            Carrer del Rec, 14<br />
+            08003 Barcelona
+          </address>
+          <dl class="hours">
+            <div>
+              <dt>Tue – Thu</dt>
+              <dd>5pm – 11pm</dd>
+            </div>
+            <div>
+              <dt>Fri – Sat</dt>
+              <dd>5pm – 1am</dd>
+            </div>
+            <div>
+              <dt>Sunday</dt>
+              <dd>4pm – 10pm</dd>
+            </div>
+            <div>
+              <dt>Monday</dt>
+              <dd>Closed</dd>
+            </div>
+          </dl>
+          <a href="tel:+34933124567" class="contact-link">+34 933 12 45 67</a>
+          <a href="mailto:hello@latarda.bar" class="contact-link">hello@latarda.bar</a>
+        </div>
+        <div class="visit-map" role="img" aria-label="Decorative wine bottle sketch"></div>
+      </div>
+    </section>
+
+    <section class="reserve" id="reserve">
+      <div class="reserve-inner">
+        <div class="reserve-copy">
+          <p class="section-label">Reservations</p>
+          <h2>Save your seat</h2>
+          <p>Walk-ins welcome at the bar. Tables held for 15 minutes. Groups of 6+ please call.</p>
+        </div>
+        <form class="reserve-form" action="#" method="post">
+          <div class="form-row">
+            <label>
+              <span>Name</span>
+              <input type="text" name="name" required autocomplete="name" />
+            </label>
+            <label>
+              <span>Email</span>
+              <input type="email" name="email" required autocomplete="email" />
+            </label>
+          </div>
+          <div class="form-row">
+            <label>
+              <span>Date</span>
+              <input type="date" name="date" required />
+            </label>
+            <label>
+              <span>Guests</span>
+              <select name="guests" required>
+                <option value="2">2 guests</option>
+                <option value="3">3 guests</option>
+                <option value="4">4 guests</option>
+                <option value="5">5 guests</option>
+                <option value="6">6 guests</option>
+              </select>
+            </label>
+            <label>
+              <span>Time</span>
+              <select name="time" required>
+                <option value="17:00">5:00 PM</option>
+                <option value="18:00">6:00 PM</option>
+                <option value="19:00">7:00 PM</option>
+                <option value="20:00">8:00 PM</option>
+                <option value="21:00">9:00 PM</option>
+                <option value="22:00">10:00 PM</option>
+                <option value="23:00">11:00 PM</option>
+                <option value="00:00">12:00 AM</option>
+                <option value="01:00">1:00 AM</option>
+              </select>
+            </label>
+          </div>
+          <label class="form-full">
+            <span>Notes (optional)</span>
+            <textarea name="notes" rows="2" placeholder="Allergies, celebration, bar seating…"></textarea>
+          </label>
+          <button type="submit" class="btn btn-primary btn-full">Request reservation</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <img src="wine-still-life.png?v=2" alt="" class="footer-still-life" width="420" height="160" decoding="async" aria-hidden="true" />
+    <img src="garlic.png" alt="" class="footer-garlic" width="110" height="77" decoding="async" aria-hidden="true" />
+    <a href="#top" class="logo">La Tarda</a>
+    <p class="footer-tagline">El Born, Barcelona · curated wines · seasonal kitchen</p>
+    <div class="footer-social">
+      <a href="#" aria-label="Instagram">Instagram</a>
+      <a href="#" aria-label="Newsletter">Newsletter</a>
+    </div>
+    <p class="footer-copy">&copy; 2026 La Tarda. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

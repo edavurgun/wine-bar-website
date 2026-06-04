@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 520" fill="none" aria-hidden="true">
+  <g stroke="#f5f5f0" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Plate -->
+    <ellipse cx="360" cy="318" rx="152" ry="50" stroke-width="2.4" opacity="0.96"/>
+    <ellipse cx="360" cy="312" rx="112" ry="36" stroke-width="1.5" opacity="0.5"/>
+    <ellipse cx="360" cy="308" rx="68" ry="20" stroke-width="1.1" opacity="0.28"/>
+    <path d="M228 316 C268 288 452 288 492 316" stroke-width="1.2" opacity="0.32"/>
+    <path d="M300 330 C330 340 390 340 420 330" stroke-width="0.9" opacity="0.2"/>
+
+    <!-- Fork -->
+    <path d="M198 468 L198 278" stroke-width="2.1" opacity="0.96"/>
+    <path d="M198 278 L198 252" stroke-width="1.8" opacity="0.85"/>
+    <path d="M184 252 C182 210 188 188 198 162" stroke-width="1.5" opacity="0.88"/>
+    <path d="M191 252 C190 210 194 188 198 162" stroke-width="1.5" opacity="0.88"/>
+    <path d="M198 252 C198 210 198 188 198 162" stroke-width="1.5" opacity="0.88"/>
+    <path d="M205 252 C206 210 202 188 198 162" stroke-width="1.5" opacity="0.88"/>
+    <path d="M212 252 C214 210 208 188 198 162" stroke-width="1.5" opacity="0.88"/>
+    <path d="M180 252 L216 252" stroke-width="1.6" opacity="0.7"/>
+    <path d="M188 468 L208 468" stroke-width="2.2" opacity="0.92"/>
+    <ellipse cx="198" cy="472" rx="17" ry="5.5" stroke-width="1.4" opacity="0.65"/>
+    <path d="M198 220 C195 235 201 248 198 262" stroke-width="0.9" opacity="0.25"/>
+
+    <!-- Knife -->
+    <path d="M522 468 L522 292" stroke-width="2.1" opacity="0.96"/>
+    <path d="M522 292 L522 268" stroke-width="1.7" opacity="0.85"/>
+    <path d="M522 268 L522 158" stroke-width="2" opacity="0.94"/>
+    <path d="M522 158 C484 198 472 248 478 292 L522 292" stroke-width="2.1" opacity="0.94"/>
+    <path d="M522 200 C498 232 490 268 494 292" stroke-width="1.1" opacity="0.38"/>
+    <path d="M522 218 C504 242 498 272 500 292" stroke-width="0.9" opacity="0.22"/>
+    <path d="M508 468 L536 468" stroke-width="2.2" opacity="0.92"/>
+    <ellipse cx="522" cy="472" rx="19" ry="5.5" stroke-width="1.4" opacity="0.65"/>
+    <circle cx="522" cy="168" r="5" stroke-width="1.2" opacity="0.45"/>
+  </g>
+  <g stroke="#c8c8c0" stroke-linecap="round" opacity="0.28">
+    <path d="M80 200 C110 175 140 205" stroke-width="0.9"/>
+    <path d="M640 380 C610 405 580 385" stroke-width="0.9"/>
+    <path d="M280 480 Q360 500 440 480" stroke-width="0.8"/>
+  </g>
+</svg>

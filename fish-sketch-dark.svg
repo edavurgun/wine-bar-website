@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 500" fill="none" aria-hidden="true">
+  <g stroke="#1a1a18" stroke-linecap="round" stroke-linejoin="round">
+    <!-- main fish body -->
+    <path d="M115 258 C178 178 325 135 485 162 C628 182 728 218 788 258 C726 298 622 332 478 352 C318 372 172 336 115 258Z" stroke-width="2.4"/>
+    <path d="M788 258 L868 232 L848 258 L868 284 Z" stroke-width="2.1"/>
+
+    <!-- scales -->
+    <path d="M195 228 C258 208 338 202 418 212" stroke-width="1.4" opacity="0.5"/>
+    <path d="M248 288 C328 302 408 308 492 296" stroke-width="1.4" opacity="0.48"/>
+    <path d="M335 238 L350 258 L335 278" stroke-width="1.3" opacity="0.45"/>
+    <path d="M395 232 L410 258 L395 282" stroke-width="1.3" opacity="0.45"/>
+    <path d="M455 228 L470 258 L455 286" stroke-width="1.3" opacity="0.45"/>
+    <path d="M515 224 L530 258 L515 288" stroke-width="1.3" opacity="0.45"/>
+    <path d="M575 220 L590 258 L575 292" stroke-width="1.3" opacity="0.45"/>
+    <path d="M635 218 L650 258 L635 294" stroke-width="1.3" opacity="0.45"/>
+
+    <!-- dorsal & tail fins -->
+    <path d="M158 245 C175 215 205 192 238 188" stroke-width="1.6" opacity="0.6"/>
+    <path d="M178 272 C200 318 238 342 282 348" stroke-width="1.5" opacity="0.55"/>
+    <path d="M228 168 C248 145 282 132 312 140" stroke-width="1.4" opacity="0.48"/>
+    <path d="M505 162 C522 136 558 122 592 130" stroke-width="1.5" opacity="0.5"/>
+    <path d="M558 345 C578 368 612 382 648 376" stroke-width="1.3" opacity="0.45"/>
+    <path d="M88 258 C65 240 48 258 66 278 C82 262 88 258 88 258Z" stroke-width="1.7" opacity="0.65"/>
+
+    <!-- curious face -->
+    <circle cx="708" cy="252" r="18" stroke-width="2"/>
+    <circle cx="714" cy="246" r="5" fill="#1a1a18" opacity="0.75"/>
+    <circle cx="720" cy="240" r="3" stroke-width="1.1" opacity="0.55"/>
+    <path d="M698 232 C708 218 728 218 738 228" stroke-width="1.4" opacity="0.55"/>
+    <path d="M688 268 C702 282 722 280 732 268" stroke-width="1.5" opacity="0.6"/>
+    <path d="M742 262 C752 258 758 262 752 268" stroke-width="1.2" opacity="0.45"/>
+
+    <!-- tiny wine glass (curious palate) -->
+    <g transform="translate(755 195) rotate(12)">
+      <path d="M0 0 L0 38" stroke-width="1.5"/>
+      <path d="M-12 38 C-4 50 4 50 12 38" stroke-width="1.6"/>
+      <path d="M-8 38 L8 38" stroke-width="1.3"/>
+      <path d="M0 50 L0 62" stroke-width="1.3"/>
+      <ellipse cx="0" cy="66" rx="9" ry="3" stroke-width="1.2"/>
+      <path d="M-4 18 C0 24 4 24" stroke-width="1" opacity="0.4"/>
+    </g>
+
+    <!-- thought bubble -->
+    <path d="M798 175 C820 155 852 162 848 188 C846 202 828 212 812 208 C808 218 788 222 778 210 C762 212 752 192 762 178 C758 168 778 158 798 175Z" stroke-width="1.3" opacity="0.5"/>
+    <path d="M772 218 C768 226 762 230 758 234" stroke-width="1.1" opacity="0.4"/>
+    <path d="M748 238 C744 244 738 248 734 250" stroke-width="1" opacity="0.35"/>
+    <path d="M818 182 H828" stroke-width="1.2" opacity="0.45"/>
+    <path d="M812 192 H834" stroke-width="1" opacity="0.38"/>
+
+    <!-- happy bubbles -->
+    <circle cx="620" cy="118" r="10" stroke-width="1.4" opacity="0.42"/>
+    <circle cx="648" cy="88" r="7" stroke-width="1.2" opacity="0.38"/>
+    <circle cx="668" cy="62" r="4.5" stroke-width="1.1" opacity="0.32"/>
+    <path d="M618 105 C612 95 618 85 626 82" stroke-width="1" opacity="0.35"/>
+    <circle cx="555" cy="95" r="6" stroke-width="1.1" opacity="0.3"/>
+    <path d="M552 88 C548 78 555 72 562 75" stroke-width="0.9" opacity="0.28"/>
+
+    <!-- fin waving -->
+    <path d="M268 155 C255 140 238 145 245 162" stroke-width="1.3" opacity="0.5"/>
+    <path d="M238 148 C222 132 205 140 212 158" stroke-width="1.1" opacity="0.4"/>
+    <path d="M218 152 C202 138 188 148 195 165" stroke-width="1" opacity="0.35"/>
+
+    <!-- seaweed squiggle -->
+    <path d="M95 320 C85 350 95 385 110 410" stroke-width="1.3" opacity="0.4"/>
+    <path d="M108 315 C98 345 108 378 122 402" stroke-width="1.1" opacity="0.32"/>
+    <path d="M125 325 C118 355 128 388 138 408" stroke-width="1.2" opacity="0.35"/>
+
+    <path d="M385 108 C425 82 492 75 558 92" stroke-width="1" opacity="0.22"/>
+    <path d="M398 395 C452 418 528 422 592 404" stroke-width="1" opacity="0.22"/>
+  </g>
+  <g stroke="#5a5a54" stroke-linecap="round" opacity="0.32">
+    <path d="M55 75 C118 52 205 88 248 138" stroke-width="0.9"/>
+    <path d="M835 425 C772 448 685 408 642 358" stroke-width="0.9"/>
+    <path d="M145 425 Q198 382 268 405" stroke-width="0.8"/>
+  </g>
+</svg>

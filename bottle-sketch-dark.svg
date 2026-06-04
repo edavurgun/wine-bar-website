@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 640" fill="none" aria-hidden="true">
+  <g stroke="#1a1a18" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Cork -->
+    <path d="M198 38 L222 38" stroke-width="1.8" opacity="0.9"/>
+    <path d="M196 44 L224 44" stroke-width="1.4" opacity="0.7"/>
+    <path d="M210 48 L210 72" stroke-width="1.8" opacity="0.85"/>
+
+    <!-- Narrow neck -->
+    <path d="M204 72 C200 72 198 115 200 150" stroke-width="2" opacity="0.95"/>
+    <path d="M216 72 C220 72 222 115 220 150" stroke-width="2" opacity="0.95"/>
+    <path d="M202 95 L218 95" stroke-width="0.9" opacity="0.3"/>
+    <path d="M201 120 L219 120" stroke-width="0.8" opacity="0.22"/>
+
+    <!-- Shoulders — gentle flare into wide body -->
+    <path d="M200 150 C175 175 145 220 118 310" stroke-width="2.2" opacity="0.96"/>
+    <path d="M220 150 C245 175 275 220 302 310" stroke-width="2.2" opacity="0.96"/>
+
+    <!-- Wide belly — widest at bottom -->
+    <path d="M118 310 C88 400 72 500 95 565" stroke-width="2.2" opacity="0.95"/>
+    <path d="M302 310 C332 400 348 500 325 565" stroke-width="2.2" opacity="0.95"/>
+
+    <!-- Broad base & punt -->
+    <path d="M95 565 C140 600 280 600 325 565" stroke-width="2.3" opacity="0.96"/>
+    <path d="M150 580 C210 595 270 580" stroke-width="1.2" opacity="0.45"/>
+
+    <!-- Label -->
+    <rect x="128" y="340" width="164" height="130" rx="3" stroke-width="1.8" opacity="0.68"/>
+    <path d="M138 375 L282 375" stroke-width="1.2" opacity="0.38"/>
+    <path d="M145 410 L275 410" stroke-width="1" opacity="0.28"/>
+    <path d="M150 445 L270 445" stroke-width="0.9" opacity="0.2"/>
+
+    <!-- Sketch details -->
+    <path d="M108 290 C95 350 90 430 100 490" stroke-width="1" opacity="0.26"/>
+    <path d="M312 295 C325 355 330 435 320 495" stroke-width="1" opacity="0.24"/>
+    <path d="M185 158 C198 168 210 170 210 168" stroke-width="1" opacity="0.32"/>
+    <path d="M215 158 C228 168 240 170 240 168" stroke-width="1" opacity="0.32"/>
+    <path d="M130 520 L290 520" stroke-width="1" opacity="0.25"/>
+  </g>
+  <g stroke="#5a5a54" stroke-linecap="round" opacity="0.3">
+    <path d="M45 340 C70 310 90 350" stroke-width="0.9"/>
+    <path d="M375 500 C350 530 325 510" stroke-width="0.9"/>
+  </g>
+</svg>
