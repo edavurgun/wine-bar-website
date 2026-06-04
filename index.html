@@ -13,16 +13,22 @@
 <body>
   <header class="site-header" id="top">
     <a href="#top" class="logo">La Tarda</a>
-    <button class="nav-toggle" aria-label="Open menu" aria-expanded="false">
-      <span></span><span></span>
-    </button>
-    <nav class="site-nav" aria-label="Main">
-      <a href="#about">About</a>
-      <a href="#wines">Wines</a>
-      <a href="#kitchen">Kitchen</a>
-      <a href="#visit">Visit</a>
-      <a href="#reserve" class="nav-cta">Reserve</a>
-    </nav>
+    <div class="header-end">
+      <div class="lang-switch" role="group" data-i18n-aria="lang.label" aria-label="Language">
+        <button type="button" class="lang-btn" data-set-lang="en" aria-pressed="true">EN</button>
+        <button type="button" class="lang-btn" data-set-lang="es" aria-pressed="false">ES</button>
+      </div>
+      <button class="nav-toggle" data-i18n-aria="nav.menuOpen" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span>
+      </button>
+      <nav class="site-nav" aria-label="Main">
+        <a href="#about" data-i18n="nav.about">About</a>
+        <a href="#wines" data-i18n="nav.wines">Wines</a>
+        <a href="#kitchen" data-i18n="nav.kitchen">Kitchen</a>
+        <a href="#visit" data-i18n="nav.visit">Visit</a>
+        <a href="#reserve" class="nav-cta" data-i18n="nav.reserve">Reserve</a>
+      </nav>
+    </div>
   </header>
 
   <main>
@@ -34,19 +40,19 @@
         </span>
       </p>
       <div class="hero-content">
-        <p class="eyebrow">Wine bar · El Born, Barcelona</p>
-        <h1>Stories in every<br /><em>glass</em></h1>
-        <p class="hero-lead">
+        <p class="eyebrow" data-i18n="hero.eyebrow">Wine bar · El Born, Barcelona</p>
+        <h1 data-i18n="hero.title" data-i18n-html="true">Stories in every<br /><em>glass</em></h1>
+        <p class="hero-lead" data-i18n="hero.lead">
           A candlelit room for natural wines, seasonal small plates,
           and conversations that linger past midnight.
         </p>
         <div class="hero-actions">
-          <a href="#reserve" class="btn btn-primary">Book a table</a>
-          <a href="#wines" class="btn btn-ghost">View the list</a>
+          <a href="#reserve" class="btn btn-primary" data-i18n="hero.book">Book a table</a>
+          <a href="#wines" class="btn btn-ghost" data-i18n="hero.list">View the list</a>
         </div>
       </div>
       <div class="hero-scroll" aria-hidden="true">
-        <span>Scroll</span>
+        <span data-i18n="hero.scroll">Scroll</span>
         <svg width="12" height="24" viewBox="0 0 12 24" fill="none"><path d="M6 0v22M1 17l5 5 5-5" stroke="currentColor" stroke-width="1"/></svg>
       </div>
     </section>
@@ -57,21 +63,21 @@
           <div class="about-image" role="img" aria-label="Decorative fish sketch"></div>
         </div>
         <div class="about-copy">
-          <p class="section-label">Our story</p>
-          <h2>An intimate room<br />for curious palates</h2>
-          <p>
+          <p class="section-label" data-i18n="about.label">Our story</p>
+          <h2 data-i18n="about.title" data-i18n-html="true">An intimate room<br />for curious palates</h2>
+          <p data-i18n="about.p1">
             A thirty-seat wine bar on a quiet lane in El Born, built around
             small producers: skin-contact oranges from Slovenia, gamay from
             Beaujolais, and the occasional magnum we’ve been saving for
             someone special.
           </p>
-          <p>
+          <p data-i18n="about.p2">
             Our list rotates weekly. Ask your server — they’ve tasted everything on it.
           </p>
           <ul class="about-stats">
-            <li><strong>30</strong><span>seats</span></li>
-            <li><strong>40</strong><span>bottles</span></li>
-            <li><strong>6</strong><span>by the glass</span></li>
+            <li><strong>30</strong><span data-i18n="about.stat.seats">seats</span></li>
+            <li><strong>40</strong><span data-i18n="about.stat.bottles">bottles</span></li>
+            <li><strong>6</strong><span data-i18n="about.stat.glass">by the glass</span></li>
           </ul>
         </div>
       </div>
@@ -87,58 +93,58 @@
         decoding="async"
       />
       <div class="section-header">
-        <p class="section-label">Current pours</p>
-        <h2>On the list this week</h2>
-        <p class="section-desc">Glass · carafe · bottle. Ask about our Coravin selections.</p>
+        <p class="section-label" data-i18n="wines.label">Current pours</p>
+        <h2 data-i18n="wines.title">On the list this week</h2>
+        <p class="section-desc" data-i18n="wines.desc">Glass · carafe · bottle. Ask about our Coravin selections.</p>
       </div>
       <div class="wine-grid">
         <article class="wine-card">
-          <span class="wine-region">Beaujolais, France</span>
+          <span class="wine-region" data-i18n="wines.card1.region">Beaujolais, France</span>
           <h3>Domaine des Champs — Morgon</h3>
-          <p class="wine-notes">Cherry, granite, gamay · 2022</p>
+          <p class="wine-notes" data-i18n="wines.card1.notes">Cherry, granite, gamay · 2022</p>
           <div class="wine-prices">
-            <span><em>Glass</em> €14</span>
-            <span><em>Bottle</em> €68</span>
+            <span><em data-i18n="wines.glass">Glass</em> €14</span>
+            <span><em data-i18n="wines.bottle">Bottle</em> €68</span>
           </div>
         </article>
         <article class="wine-card featured">
-          <span class="wine-tag">Staff pick</span>
-          <span class="wine-region">Styria, Austria</span>
+          <span class="wine-tag" data-i18n="wines.staffPick">Staff pick</span>
+          <span class="wine-region" data-i18n="wines.card2.region">Styria, Austria</span>
           <h3>Werlitsch — Sauvignon Blanc</h3>
-          <p class="wine-notes">Skin contact, apricot, saline · 2021</p>
+          <p class="wine-notes" data-i18n="wines.card2.notes">Skin contact, apricot, saline · 2021</p>
           <div class="wine-prices">
-            <span><em>Glass</em> €16</span>
-            <span><em>Bottle</em> €82</span>
+            <span><em data-i18n="wines.glass">Glass</em> €16</span>
+            <span><em data-i18n="wines.bottle">Bottle</em> €82</span>
           </div>
         </article>
         <article class="wine-card">
-          <span class="wine-region">Etna, Sicily</span>
+          <span class="wine-region" data-i18n="wines.card3.region">Etna, Sicily</span>
           <h3>Graci — Nerello Mascalese</h3>
-          <p class="wine-notes">Volcanic, rose petal, fine tannin · 2020</p>
+          <p class="wine-notes" data-i18n="wines.card3.notes">Volcanic, rose petal, fine tannin · 2020</p>
           <div class="wine-prices">
-            <span><em>Glass</em> €18</span>
-            <span><em>Bottle</em> €94</span>
+            <span><em data-i18n="wines.glass">Glass</em> €18</span>
+            <span><em data-i18n="wines.bottle">Bottle</em> €94</span>
           </div>
         </article>
         <article class="wine-card">
-          <span class="wine-region">Willamette, Oregon</span>
+          <span class="wine-region" data-i18n="wines.card4.region">Willamette, Oregon</span>
           <h3>Division — Pinot Noir</h3>
-          <p class="wine-notes">Cranberry, forest floor, elegant · 2019</p>
+          <p class="wine-notes" data-i18n="wines.card4.notes">Cranberry, forest floor, elegant · 2019</p>
           <div class="wine-prices">
-            <span><em>Glass</em> €15</span>
-            <span><em>Bottle</em> €72</span>
+            <span><em data-i18n="wines.glass">Glass</em> €15</span>
+            <span><em data-i18n="wines.bottle">Bottle</em> €72</span>
           </div>
         </article>
       </div>
-      <p class="wines-footer">Full list available at the bar. No corkage on bottles purchased here.</p>
+      <p class="wines-footer" data-i18n="wines.footer">Full list available at the bar. No corkage on bottles purchased here.</p>
     </section>
 
     <section class="kitchen" id="kitchen">
       <div class="kitchen-inner">
         <div class="kitchen-copy">
-          <p class="section-label">From the kitchen</p>
-          <h2>Plates to pass,<br />glasses to refill</h2>
-          <p>
+          <p class="section-label" data-i18n="kitchen.label">From the kitchen</p>
+          <h2 data-i18n="kitchen.title" data-i18n-html="true">Plates to pass,<br />glasses to refill</h2>
+          <p data-i18n="kitchen.p">
             Our menu is designed for sharing — think burrata with fig honey,
             duck rillettes, and whatever bread our baker dropped off that morning.
           </p>
@@ -146,29 +152,29 @@
         <ul class="menu-list">
           <li>
             <div class="menu-item">
-              <h3>Charcuterie board</h3>
-              <p>Two meats, cornichons, mustard, grilled sourdough</p>
+              <h3 data-i18n="kitchen.item1.title">Charcuterie board</h3>
+              <p data-i18n="kitchen.item1.desc">Two meats, cornichons, mustard, grilled sourdough</p>
             </div>
             <span class="menu-price">€24</span>
           </li>
           <li>
             <div class="menu-item">
-              <h3>Roasted beet & goat cheese</h3>
-              <p>Walnuts, aged balsamic, micro herbs</p>
+              <h3 data-i18n="kitchen.item2.title">Roasted beet & goat cheese</h3>
+              <p data-i18n="kitchen.item2.desc">Walnuts, aged balsamic, micro herbs</p>
             </div>
             <span class="menu-price">€16</span>
           </li>
           <li>
             <div class="menu-item">
-              <h3>Truffle arancini</h3>
-              <p>Pecorino, black truffle oil, lemon aioli</p>
+              <h3 data-i18n="kitchen.item3.title">Truffle arancini</h3>
+              <p data-i18n="kitchen.item3.desc">Pecorino, black truffle oil, lemon aioli</p>
             </div>
             <span class="menu-price">€14</span>
           </li>
           <li>
             <div class="menu-item">
-              <h3>Olive oil cake</h3>
-              <p>Mascarpone, blood orange, sea salt</p>
+              <h3 data-i18n="kitchen.item4.title">Olive oil cake</h3>
+              <p data-i18n="kitchen.item4.desc">Mascarpone, blood orange, sea salt</p>
             </div>
             <span class="menu-price">€12</span>
           </li>
@@ -179,28 +185,28 @@
     <section class="visit" id="visit">
       <div class="visit-grid">
         <div class="visit-info">
-          <p class="section-label">Find us</p>
-          <h2>Visit La Tarda</h2>
+          <p class="section-label" data-i18n="visit.label">Find us</p>
+          <h2 data-i18n="visit.title">Visit La Tarda</h2>
           <address>
             Carrer del Rec, 14<br />
             08003 Barcelona
           </address>
           <dl class="hours">
             <div>
-              <dt>Tue – Thu</dt>
-              <dd>5pm – 11pm</dd>
+              <dt data-i18n="visit.hours.tue">Tue – Thu</dt>
+              <dd data-i18n="visit.hours.tueTime">5pm – 11pm</dd>
             </div>
             <div>
-              <dt>Fri – Sat</dt>
-              <dd>5pm – 1am</dd>
+              <dt data-i18n="visit.hours.fri">Fri – Sat</dt>
+              <dd data-i18n="visit.hours.friTime">5pm – 1am</dd>
             </div>
             <div>
-              <dt>Sunday</dt>
-              <dd>4pm – 10pm</dd>
+              <dt data-i18n="visit.hours.sun">Sunday</dt>
+              <dd data-i18n="visit.hours.sunTime">4pm – 10pm</dd>
             </div>
             <div>
-              <dt>Monday</dt>
-              <dd>Closed</dd>
+              <dt data-i18n="visit.hours.mon">Monday</dt>
+              <dd data-i18n="visit.hours.closed">Closed</dd>
             </div>
           </dl>
           <a href="tel:+34933124567" class="contact-link">+34 933 12 45 67</a>
@@ -213,38 +219,38 @@
     <section class="reserve" id="reserve">
       <div class="reserve-inner">
         <div class="reserve-copy">
-          <p class="section-label">Reservations</p>
-          <h2>Save your seat</h2>
-          <p>Walk-ins welcome at the bar. Tables held for 15 minutes. Groups of 6+ please call.</p>
+          <p class="section-label" data-i18n="reserve.label">Reservations</p>
+          <h2 data-i18n="reserve.title">Save your seat</h2>
+          <p data-i18n="reserve.p">Walk-ins welcome at the bar. Tables held for 15 minutes. Groups of 6+ please call.</p>
         </div>
         <form class="reserve-form" action="#" method="post">
           <div class="form-row">
             <label>
-              <span>Name</span>
+              <span data-i18n="form.name">Name</span>
               <input type="text" name="name" required autocomplete="name" />
             </label>
             <label>
-              <span>Email</span>
+              <span data-i18n="form.email">Email</span>
               <input type="email" name="email" required autocomplete="email" />
             </label>
           </div>
           <div class="form-row">
             <label>
-              <span>Date</span>
+              <span data-i18n="form.date">Date</span>
               <input type="date" name="date" required />
             </label>
             <label>
-              <span>Guests</span>
+              <span data-i18n="form.guests">Guests</span>
               <select name="guests" required>
-                <option value="2">2 guests</option>
-                <option value="3">3 guests</option>
-                <option value="4">4 guests</option>
-                <option value="5">5 guests</option>
-                <option value="6">6 guests</option>
+                <option value="2" data-i18n="form.guests2">2 guests</option>
+                <option value="3" data-i18n="form.guests3">3 guests</option>
+                <option value="4" data-i18n="form.guests4">4 guests</option>
+                <option value="5" data-i18n="form.guests5">5 guests</option>
+                <option value="6" data-i18n="form.guests6">6 guests</option>
               </select>
             </label>
             <label>
-              <span>Time</span>
+              <span data-i18n="form.time">Time</span>
               <select name="time" required>
                 <option value="17:00">5:00 PM</option>
                 <option value="18:00">6:00 PM</option>
@@ -259,10 +265,10 @@
             </label>
           </div>
           <label class="form-full">
-            <span>Notes (optional)</span>
-            <textarea name="notes" rows="2" placeholder="Allergies, celebration, bar seating…"></textarea>
+            <span data-i18n="form.notes">Notes (optional)</span>
+            <textarea name="notes" rows="2" data-i18n-placeholder="form.placeholder" placeholder="Allergies, celebration, bar seating…"></textarea>
           </label>
-          <button type="submit" class="btn btn-primary btn-full">Request reservation</button>
+          <button type="submit" class="btn btn-primary btn-full" data-i18n="form.submit">Request reservation</button>
         </form>
       </div>
     </section>
@@ -272,14 +278,15 @@
     <img src="wine-still-life.png?v=2" alt="" class="footer-still-life" width="420" height="160" decoding="async" aria-hidden="true" />
     <img src="garlic.png" alt="" class="footer-garlic" width="110" height="77" decoding="async" aria-hidden="true" />
     <a href="#top" class="logo">La Tarda</a>
-    <p class="footer-tagline">El Born, Barcelona · curated wines · seasonal kitchen</p>
+    <p class="footer-tagline" data-i18n="footer.tagline">El Born, Barcelona · curated wines · seasonal kitchen</p>
     <div class="footer-social">
-      <a href="#" aria-label="Instagram">Instagram</a>
-      <a href="#" aria-label="Newsletter">Newsletter</a>
+      <a href="#" data-i18n-aria="footer.instagram" aria-label="Instagram" data-i18n="footer.instagram">Instagram</a>
+      <a href="#" data-i18n-aria="footer.newsletter" aria-label="Newsletter" data-i18n="footer.newsletter">Newsletter</a>
     </div>
-    <p class="footer-copy">&copy; 2026 La Tarda. All rights reserved.</p>
+    <p class="footer-copy" data-i18n="footer.copy">&copy; 2026 La Tarda. All rights reserved.</p>
   </footer>
 
+  <script src="i18n.js"></script>
   <script src="script.js"></script>
 </body>
 </html>

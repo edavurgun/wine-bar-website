@@ -286,6 +286,62 @@ em {
   transition: color 0.4s var(--ease);
 }
 
+.header-end {
+  display: flex;
+  align-items: center;
+  gap: 1.25rem;
+}
+
+.lang-switch {
+  display: flex;
+  align-items: center;
+  gap: 0.15rem;
+  padding: 0.2rem;
+  border: 1px solid rgba(var(--text-rgb), 0.15);
+  border-radius: 999px;
+}
+
+.lang-btn {
+  font-family: var(--sans);
+  font-size: 0.65rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  padding: 0.35rem 0.55rem;
+  border: none;
+  border-radius: 999px;
+  background: transparent;
+  color: rgba(var(--text-rgb), 0.55);
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s;
+}
+
+.lang-btn[aria-pressed="true"] {
+  background: var(--gold);
+  color: var(--charcoal);
+}
+
+.lang-btn:hover {
+  color: var(--charcoal);
+}
+
+.site-header.scrolled .lang-switch {
+  border-color: rgba(var(--cream-rgb), 0.25);
+}
+
+.site-header.scrolled .lang-btn {
+  color: rgba(var(--cream-rgb), 0.55);
+}
+
+.site-header.scrolled .lang-btn[aria-pressed="true"] {
+  background: var(--gold);
+  color: var(--charcoal);
+}
+
+.site-header.scrolled .lang-btn:hover {
+  color: var(--cream);
+}
+
 .site-nav {
   display: flex;
   align-items: center;
