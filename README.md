@@ -1,24 +1,45 @@
-# Wine Bar Website
+# La Tarda — Wine Bar Website
 
-Your starter site — 3 files:
+Static site for La Tarda (El Born, Barcelona).
 
-- `index.html` — page content
-- `styles.css` — design & layout
-- `script.js` — menu & form behavior
-
-## Open the site
-
-**Option A:** Double-click `index.html` in Finder (opens in your browser).
-
-**Option B:** In Cursor: **File → Open Folder** → choose this `wine-bar-website` folder.
-
-**Option C:** Terminal:
+## Open locally
 
 ```bash
 cd ~/Desktop/wine-bar-website
 open index.html
 ```
 
+Or with a local server:
+
+```bash
+python3 -m http.server 8080
+# open http://localhost:8080
+```
+
+## Push to GitHub
+
+The project is already a git repo. To publish under [github.com/edavurgun](https://github.com/edavurgun):
+
+1. Sign in at [github.com](https://github.com).
+2. Create a new repository: [github.com/new](https://github.com/new)
+   - **Name:** `wine-bar-website`
+   - **Public**
+   - Do **not** add a README, .gitignore, or license (this folder already has them).
+3. In Terminal:
+
+```bash
+cd ~/Desktop/wine-bar-website
+git push -u origin main
+```
+
+If GitHub asks you to sign in, use the browser or a [personal access token](https://github.com/settings/tokens) as the password.
+
+Your site will be at: `https://github.com/edavurgun/wine-bar-website`
+
+## Go live with your domain
+
+After the repo is on GitHub, you can deploy free with [Netlify](https://www.netlify.com) or [GitHub Pages](https://pages.github.com) and connect `latarda.bar` in DNS.
+
 ## Customize
 
-**La Tarda** — update address, hours, wines, and menu items in `index.html` as needed.
+Edit `index.html` for copy, wines, hours, and contact links.
